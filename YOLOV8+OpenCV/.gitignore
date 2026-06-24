@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 环境变量（包含 API Key，绝对不能提交！）
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 输出文件
+outputs/*.jpg
+outputs/*.json
+web_outputs/
+
+# 视频文件
+*.mp4
+
+# 模型文件（太大，让别人自己下载）
+*.pt
+
+# OS
+.DS_Store
+Thumbs.db
